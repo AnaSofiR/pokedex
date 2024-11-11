@@ -1,14 +1,14 @@
 const pokeneas = [
-    { id: 1, nombre: 'Pikachito', altura: 0.5, habilidad: 'Electricidad', imagen: 'https://storage.googleapis.com/pokeneas-bucket-image/Pikachito.jpeg', frase: 'Vive y deja vivir' },
-    { id: 2, nombre: 'Charliardito', altura: 0.8, habilidad: 'Fuego', imagen: 'https://storage.googleapis.com/pokeneas-bucket-image/Charliardito.png', frase: 'El fuego purifica' },
-    { id: 3, nombre: 'Areperito', altura: 0.6, habilidad: 'Maíz Supremo', imagen: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon%208.jpg', frase: 'Con arepa todo es mejor' },
-    { id: 4, nombre: 'Guarolax', altura: 0.9, habilidad: 'Sueño Profundo', imagen: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon10.jpg', frase: 'No hay afán, pues' },
-    { id: 5, nombre: 'Chocorrito', altura: 0.4, habilidad: 'Dulzura', imagen: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon3.png', frase: 'Pa’ que se alegre el alma' },
-    { id: 6, nombre: 'Frijolito', altura: 0.7, habilidad: 'Fuerza Paisa', imagen: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon4.jpg', frase: 'Aquí siempre se tira pa’lante' },
-    { id: 7, nombre: 'Valentin', altura: 0.3, habilidad: 'Dar Amor', imagen: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon7.jpg', frase: 'Día de San Valen, Valen Valentin chajaja' },
-    { id: 8, nombre: 'Bandejardito', altura: 1.0, habilidad: 'Llenura Extrema', imagen: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon5.jpg', frase: 'Aquí siempre hay dónde echar más' },
-    { id: 9, nombre: 'Morralsito', altura: 0.5, habilidad: 'Carga Ligera', imagen: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon5.jpg', frase: 'Camine con lo que tenga' },
-    { id: 10, nombre: 'Silleterito', altura: 0.8, habilidad: 'Resistencia', imagen: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon9.jpg', frase: 'Aquí se aguanta todo' },
+    { id: 1, name: 'Pikachito', height: 0.5, ability: 'Electricidad', image: 'https://storage.googleapis.com/pokeneas-bucket-image/Pikachito.jpeg', phrase: 'Vive y deja vivir' },
+    { id: 2, name: 'Charliardito', height: 0.8, ability: 'Fuego', image: 'https://storage.googleapis.com/pokeneas-bucket-image/Charliardito.png', phrase: 'El fuego purifica' },
+    { id: 3, name: 'Areperito', height: 0.6, ability: 'Maíz Supremo', image: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon%208.jpg', phrase: 'Con arepa todo es mejor' },
+    { id: 4, name: 'Guarolax', height: 0.9, ability: 'Sueño Profundo', image: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon10.jpg', phrase: 'No hay afán, pues' },
+    { id: 5, name: 'Chocorrito', height: 0.4, ability: 'Dulzura', image: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon3.png', phrase: 'Pa’ que se alegre el alma' },
+    { id: 6, name: 'Frijolito', height: 0.7, ability: 'Fuerza Paisa', image: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon4.jpg', phrase: 'Aquí siempre se tira pa’lante' },
+    { id: 7, name: 'Valentin', height: 0.3, ability: 'Dar Amor', image: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon7.jpg', phrase: 'Día de San Valen, Valen Valentin chajaja' },
+    { id: 8, name: 'Bandejardito', height: 1.0, ability: 'Llenura Extrema', image: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon5.jpg', phrase: 'Aquí siempre hay dónde echar más' },
+    { id: 9, name: 'Morralsito', height: 0.5, ability: 'Carga Ligera', image: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon5.jpg', phrase: 'Camine con lo que tenga' },
+    { id: 10, name: 'Silleterito', height: 0.8, ability: 'Resistencia', image: 'https://storage.googleapis.com/pokeneas-bucket-image/pokemon9.jpg', phrase: 'Aquí se aguanta todo' },
 ];
   
 module.exports = pokeneas;

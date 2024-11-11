@@ -6,9 +6,9 @@ exports.getInfo = (req, res) => {
     const randomPokenea = pokeneas[Math.floor(Math.random() * pokeneas.length)];
     res.json({
         id: randomPokenea.id,
-        nombre: randomPokenea.nombre,
-        altura: randomPokenea.altura,
-        habilidad: randomPokenea.habilidad,
+        name: randomPokenea.name,
+        height: randomPokenea.height,
+        ability: randomPokenea.ability,
         containerId: process.env.HOSTNAME
     });
 };
@@ -16,9 +16,9 @@ exports.getInfo = (req, res) => {
 exports.getImage = (req, res) => {
     const randomPokenea = pokeneas[Math.floor(Math.random() * pokeneas.length)];
     res.render('infoPokenea', {
-        nombre: randomPokenea.nombre,
-        imagen: randomPokenea.imagen,
-        frase: randomPokenea.frase,
+        name: randomPokenea.name,
+        image: randomPokenea.image,
+        phrase: randomPokenea.phrase,
         containerId: process.env.HOSTNAME
     });
 };
