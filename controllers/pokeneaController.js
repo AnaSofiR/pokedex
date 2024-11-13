@@ -1,8 +1,5 @@
-const pokeneas = require('../db/pokeneas');
-
-
-
 exports.getInfo = (req, res) => {
+    const pokeneas = require('../db/pokeneas');
     const randomPokenea = pokeneas[Math.floor(Math.random() * pokeneas.length)];
     res.json({
         id: randomPokenea.id,
@@ -14,6 +11,7 @@ exports.getInfo = (req, res) => {
 };
 
 exports.getImage = (req, res) => {
+    const pokeneas = require('../db/pokeneas');
     const randomPokenea = pokeneas[Math.floor(Math.random() * pokeneas.length)];
     res.render('infoPokenea', {
         name: randomPokenea.name,
